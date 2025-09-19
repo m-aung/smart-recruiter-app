@@ -22,7 +22,14 @@ npx lerna bootstrap
 yarn test
 ```
 
+
 Packages
 
-- `packages/package-a`: exports `greet(name)`
-- `packages/package-b`: depends on `package-a` and exports `greetUpper(name)`
+- `packages/client`: Create React App (TypeScript) client. Run locally with `yarn start` inside the `packages/client` folder.
+
+Client commands:
+
+```bash
+cd packages/client
+yarn start
+```
