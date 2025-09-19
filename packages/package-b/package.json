@@ -1,0 +1,13 @@
+{
+  "name": "@smart-recruiter/package-b",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@smart-recruiter/package-a": "^1.0.0"
+  },
+  "scripts": {
+    "test": "node index.test.js",
+    "build": "echo \"build package-b\""
+  }
+}

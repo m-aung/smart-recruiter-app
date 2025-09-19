@@ -1,0 +1,17 @@
+{
+  "name": "smart-recruiter-app",
+  "private": true,
+  "version": "0.0.0",
+  "devDependencies": {
+    "lerna": "^6.0.0"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "bootstrap": "lerna bootstrap",
+    "clean": "lerna clean && rimraf node_modules",
+    "build": "lerna run build",
+    "test": "lerna run test"
+  }
+}
